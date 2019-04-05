@@ -5,10 +5,10 @@ const logger       = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser   = require('body-parser');
 const layouts      = require('express-ejs-layouts');
-const mongoose     = require('mongoose');
+// const mongoose     = require('mongoose');
 const cors         = require('cors');
 
-mongoose.connect('mongodb://localhost/journal-development');
+// mongoose.connect('mongodb://localhost/journal-development');
 
 const app = express();
 
